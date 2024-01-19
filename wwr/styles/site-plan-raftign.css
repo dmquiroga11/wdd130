@@ -1,13 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Vollkorn&display=swap");
-:root{
+:root {
  --primary-colour:#90E0EF;
  --secondary-colour:#00B4D8;
  --accent1-colour:#023E8A;
  --accent2-colour:#03045E;
-
  --heading-font:"Regular 400";
  --paragrap-font: "Medium 500";
-
  --nav-background-colour: #00b4d8;
  --nav-link-colour:#023E8A;    
  --nav-hover-link-colour:#023E8A;
