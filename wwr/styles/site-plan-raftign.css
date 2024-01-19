@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Vollkorn&display=swap");
 :root {
  --primary-colour:#90E0EF;
  --secondary-colour:#00B4D8;
@@ -20,27 +21,27 @@ h1, h2, h3, h4,h5,h6{
     color:var(--accent1-colour);
 }
 header{
-    padding:20;
-    background-color: #023E8A;
+    padding:20px;
+    background-color:var(--accent1-colour) ;
 }
 p{
     padding: 25px;
 }
 nav{
-    background-color: aquamarine;
+    background-color: var(--nav-background-colour);
     font-size: 1.2rem;
     display: flex;
 }
 nav a {
     display: block;
-    color:#023E8A;
+    color:var(--nav-link-colour);
     text-decoration: none;
     padding: 1rem;
 }
 nav a:link, nav a:visited{
-    color:#023E8A;
+    color:var(--nav-link-colour);
 }
 nav a:hover{
     color: var(--nav-hover-background-colour);
-    background-color:#00B4D8;
+    background-color:var(--nav-hover-background-colour);
 }
