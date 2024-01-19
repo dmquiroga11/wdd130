@@ -1,16 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Vollkorn&display=swap");
 :root {
-    --primary-colour:#90E0EF;
-    --secondary-colour:#00B4D8;
-    --accent1-colour:#023E8A;
-    --accent2-colour:#03045E;
+    --primary-color:#90E0EF;
+    --secondary-color:#00B4D8;
+    --accent1-color:#023E8A;
+    --accent2-color:#03045E;
 
     --heading-font:"Regular 400",serif;
     --paragrap-font: "Medium 500",serif;
-    --nav-background-colour: #00b4d8;
-    --nav-link-colour:#023E8A;    
-    --nav-hover-link-colour:#023E8A;
-    --nav-hover-background-colour:#00B4D8;
+    --nav-background-color: #00b4d8;
+    --nav-link-color:#023E8A;    
+    --nav-hover-link-color:#023E8A;
+    --nav-hover-background-color:#00B4D8;
 }
 body{
     font-family: var(--paragrap-font);
@@ -23,26 +23,26 @@ h1, h2, h3, h4,h5,h6{
 }
 header{
     padding:20px;
-    background-color:var(--accent1-colour) ;
+    background-color:var(--accent1-color) ;
 }
 p{
     padding: 25px;
 }
 nav{
-    background-color: var(--nav-background-colour);
+    background-color: var(--nav-background-color);
     font-size: 1.2rem;
     display: flex;
 }
 nav a {
     display: block;
-    color:var(--nav-link-colour);
+    color:var(--nav-link-color);
     text-decoration: none;
     padding: 1rem;
 }
 nav a:link, nav a:visited{
-    color:var(--nav-link-colour);
+    color:var(--nav-link-color);
 }
 nav a:hover{
-    color: var(--nav-hover-background-colour);
-    background-color:var(--nav-hover-background-colour);
+    color: var(--nav-hover-background-color);
+    background-color:var(--nav-hover-background-color);
 }
