@@ -6,20 +6,21 @@
     --accent2-color:#03045E;
 
     --heading-font:"Regular 400",serif;
-    --paragrap-font:"Medium 500",serif;
+    --paragraph-font:"Medium 500",serif;
+
     --nav-background-color: #00b4d8;
     --nav-link-color:#023E8A;    
     --nav-hover-link-color:#023E8A;
     --nav-hover-background-color:#00B4D8;
 }
 body{
-    font-family: var(--paragrap-font);
+    font-family: var(--paragraph-font);
     max-width: 960px;
     padding:20px;
 }
 h1, h2, h3, h4,h5,h6{
     font-family: var(--heading-font);
-    color:var(--accent1-color);
+    color:var(--primary-color);
 }
 header{
     padding:20px;
