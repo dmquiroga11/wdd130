@@ -1,0 +1,49 @@
+@import url(https://fonts.google.com/specimen/Vollkorn);
+:root{
+    --primary-colour:#90E0EF;
+    --secondary-colour:#00B4D8;
+    --accent1-colour:#023E8A;
+    --accent2-colour:#03045E;
+
+    --heading-font:"Regular 400";
+    --paragrap-font: "Medium 500";
+
+    --nav-background-colour: #00b4d8;
+    --nav-link-colour:#023E8A;    
+    --nav-hover-link-colour:#023E8A;
+    --nav-hover-background-colour:#00B4D8;
+}
+body{
+    font-family: var(--paragrap-font);
+    max-width: 960px;
+    padding:20px
+}
+h1, h2, h3, h4{
+    font-family: var(--heading-font);
+    color:var(--accent1-colour);
+}
+header{
+    padding: 20;
+    background-color: #023E8A;
+}
+p{
+    padding: 25px;
+}
+nav{
+    background-color: aquamarine;
+    font-size: 1.2rem;
+    display: flex;
+}
+nav a {
+    display: block;
+    color:#023E8A;
+    text-decoration: none;
+    padding: 1rem;
+}
+nav a:link, nav a:visited{
+    color:#023E8A;
+}
+nav a:hover{
+    color: var(--nav-hover-background-colour);
+    background-color:var(#00B4D8);
+}
