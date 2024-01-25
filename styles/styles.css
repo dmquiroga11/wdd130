@@ -16,7 +16,7 @@ h1 {
     color: steelblue;
 }
  main img { 
-    width: 130px;
+    width: 150px;
     height: auto;
     border: 1px solid steelblue;
     padding: 2px;
@@ -37,6 +37,14 @@ aside{
     background-color: rgb(84, 161, 217);
     color:#342458 ;
     text-align: center;
+    width: 530px;
+    text-align: center;
+    position: relative;
+}
+aside h2 {
+    position: absolute;
+    top:auto;
+    left: 210px;
 }
 aside img{
     width: 200px;
@@ -47,24 +55,16 @@ footer{
     border-top: 1px solid #000;
     text-align: center;
 }
+
+/* class selector*/
 .box {
     margin: 1rem;
     border: 1px;
     padding: 1rem;
-    background-color: lightblue;
+    background-color:lightblue;
     color:black;
 }
-aside {
-    width: auto;
-    text-align: center;
-    position: relative;
-}
-aside h2 {
-    position: absolute;
-    top:auto;
-    left: 680px;
-}
 
-/* class selectors
-This is the header that creates a comment header
-for a section called selector class */
+
+
+
