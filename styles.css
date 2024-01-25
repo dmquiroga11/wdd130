@@ -49,13 +49,13 @@ footer{
     text-align: center;
 }
 
-/* In this section I explain what kind of class selectors use*/
+/*In this section I explain what kind of class selectors use*/
 .box {
     margin: 1rem;
-    border: 1px solid rgba (0,0,0.1);
+    border: 1px;
     padding: 1rem;
-    background-color: rgb(96, 235, 240);
-    color: rgb(13, 13, 13);
+    background-color: lightblue;
+    color:black;
 }
 aside {
     width: auto;
