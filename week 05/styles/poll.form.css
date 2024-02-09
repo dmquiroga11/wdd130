@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Vollkorn&display=swap");
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    color: rgb(3, 19, 126);
+    background-color: rgb(242, 245, 245);    
+    align-items: center;
+
+}
+header{
+    margin: 0 auto;
+    width: 650px;}
+h1{
+    margin:1rem;
+    font-size: 1.5rem;
+    color: rgb(39, 6, 99);
+    text-align: center;
+}
+form{
+    width: 650px;
+    margin:0 auto;
+    padding: 20px;
+    border: 1px solid rgba (0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color:rgb(187, 192, 196);
+    display: grid;
+
+    
+    
+   
+    
+}
+fieldset{
+    display:grid;  
+    margin: 5px;
+    border:1px solid rgba (0, 0, 0, 0.2);
+    padding: 1rem;  
+}
+legend{
+    padding: 0.5rem;
+    color: rgb(0, 0, 7);
+    font-size: 30px;    
+}
+label, input, button, select, textarea{
+    font-family: 'Times New Roman', Times, serif;   
+}
+label{
+    text-align: center;
+    padding-right: 1rem; 
+    margin: 10px;    
+}
+input,select, textarea{
+    padding: 0.5rem;
+    font-size: 1.1rem;
+    
+}
+input[type="checkbox"]{
+    width:22px;
+    height:22px;
+    vertical-align: bottom;       
+}
+button{   
+    display: grid;
+    background-color: rgba(14, 14, 242, 0.807);
+    color: black;
+    border: none;
+    border-radius: .2rem;
+    padding: 6px;;
+    font-size: 1.2rem;
+    width: 150px;
+    height: 35px; 
+    justify-content: center; 
+    grid-template-rows: 50% auto;
+}
+
+button:hover {
+    background-color: rgb(216, 186, 50);
+}
+.center{
+    display: grid;
+    justify-content: center;
+    margin:20px;
+}
+footer{
+    margin: 1 rem auto 0;  
+    text-align: center;
+    font-size: 0.8em;
+    color: darkblue;
+    border-top: 1px solid #ccc;
+    align-items: center;
+}
+.form-item{
+    display:grid;
+    
+    
+    
+}
+.column1{    
+    grid-template-columns: 3fr 1fr;
+    margin:0.5rem 0;
+    align-items: center;
+  
+    
+}
+.column2{
+    display:grid;
+    flex-direction: row;      
+    grid-template-columns: 30% 60%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
