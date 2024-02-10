@@ -14,7 +14,8 @@
 }
 *{
     margin: 0;
-    padding: 0;    
+    padding: 0;
+
 }
 header{
     display: grid;
@@ -53,7 +54,8 @@ header a{
     text-decoration: none;    
 }
 body{
-    display: grid;      
+    display: grid;
+    justify-content: center;      
     font-family: 'Times New Roman', Times, serif;
     margin:0; 
     padding: 0;
@@ -64,7 +66,7 @@ body{
 }
 form{
     width: 650px;
-    height: 800px;
+    height: 870px;
     margin:0 auto;
     padding: 20px;    
     border-radius: 0.5rem;   
@@ -97,7 +99,8 @@ h2{
 }
 .box{
     display:grid;
-    grid-template-columns: 70% 60%;    
+    justify-content: space-between;
+    grid-template-columns: 70% 50%;    
 }
 fieldset{
     display:grid;  
@@ -159,14 +162,6 @@ button:hover {
     text-align: center; 
     padding: 20px;   
 }
-/*down images*/
-.box5{
-    display: flex;
-   justify-content: space-around;
-   margin-bottom: 20px;
-   
-      
-}
 .class1{    
     width: 350px;
     height: 300px;
@@ -174,8 +169,8 @@ button:hover {
 }
 /*Only images down*/
 .class2{
-    width: 350px;
-    height: 300px;    
+    width: 250px;
+    height: 200px;    
     margin-top: 30px;
     
 }
@@ -189,26 +184,23 @@ button:hover {
     font-size: 25px;
     text-align: center;
 }
-.map{    
-    width: auto;
-    height: auto;
-    border: 5px solid black;
-    border-color: #03045E;
-}
-/*footer*/
-.box6{ 
-    margin: 10px;
-    display: grid;            
-    justify-items:center;
-    font-size: 15px;
-    
-    
-} 
-/*links*/
 .class5 {
     width: 30px;
     height: 30px;
     display:inline-flex; 
     margin-top: 10px;  
+}
+/*footer*/
+.box5{
+    display: flex;
+   justify-content: space-around;
+   
+      
+}
+.box6{
+    display: flex;  
+    padding: 20px; 
+    justify-content:space-evenly;
+    font-size: 20px;  
 }
 
