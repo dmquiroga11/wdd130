@@ -72,7 +72,7 @@ header a{
     position: relative;
     justify-content: center;
     background-color:#023E8A ;
-    opacity: 0.8px;   
+    opacity: 0.8;   
 }
 /*Explore bottom*/
 .center1trips{
@@ -165,7 +165,7 @@ header a{
     width:700px ;
     height:300px ;    
     font-size: 30px;
-    bottom: 750px;
+    bottom: 1090px;
     left:50%;
 }
 .cont3{
@@ -215,7 +215,7 @@ header a{
     height: 300px;
     width: 900px;
     font-size: 30px; 
-    bottom:900px;
+    bottom:1300px;
     left:900px;    
 }
 /*Table*/
@@ -270,7 +270,7 @@ td,th{
     font-size: 30px;
     border-collapse: collapse;
     background-color: rgb(127, 210, 255);
-    bottom: 880px;
+    bottom: 1200px;
     left:52%;
 
 }
@@ -292,7 +292,7 @@ td,th{
     font-size: 30px;
     border-collapse: collapse;
     background-color: rgb(127, 210, 255);
-    bottom: 1015px;
+    bottom: 1450px;
     left:48%;
 
 }
@@ -317,7 +317,7 @@ td,th{
     font-size: 30px;
     border-radius: 1em;
     background-color: rgb(149, 166, 201); 
-    bottom:850px;
+    bottom:1190px;
     left: 65%;
    
 }
@@ -348,7 +348,7 @@ td,th{
     font-size: 30px;
     border-radius: 1em;
     background-color: rgb(149, 166, 201);
-    bottom:970px ; 
+    bottom:1410px ; 
     left:60%   
 }
 .exp3:hover{
@@ -501,8 +501,6 @@ button:hover {
     padding: 1em;
     position: relative;   
     left:10%;
-
-
 }
 /*Only images down*/
 
@@ -526,23 +524,23 @@ button:hover {
     width: 350px;
     height: 260px;
     display: grid;
-    position: relative;
+    position: relative;  
     top:130px;
-    left: 10px;
-
+    left: 20px;
 }
 .figcorrect{
     display: grid;
     position: relative;
-    height: 300px;
-    width: 200;
+    height: 400px;    
     top:70px;
+    
+    
 }
 .figcont1{
     display: grid;
     position: relative;
     bottom:50px;
-    left: 30px;
+
 
 }
 .figcont2{
@@ -550,8 +548,6 @@ button:hover {
     position: relative;
     bottom:50px;
     left: 30px;
-
-
 }
 .figcont3{
     width: 150px;
@@ -594,6 +590,9 @@ button:hover {
     font-family: 'Times New Roman', Times, serif;
     background-color: rgb(99, 169, 179);
 
+}
+.mainindex{
+    height: 1200px;
 }
 
 /*css form*/
@@ -714,15 +713,16 @@ button:hover {
     width: 600px;
     height: 300px;
     text-align: justify;
-    bottom: 1100px;
+    bottom: 1300px;
     left:200%;    
 }
 .img2index{
     display: grid;
     position: relative;
-    left:500px;
+    left:1200px;
     height: 500px;
     width: 500px;
+    bottom: 1000px;
 }
 
 .parr2index{
@@ -731,8 +731,8 @@ button:hover {
     width: 900px;
     height: 150px;
     text-align: justify;
-    top:300px;
-    right: 450px;   
+    bottom:800px;
+    left:10%;   
 }
 .fig1{
     display: grid;
@@ -743,10 +743,11 @@ button:hover {
 
 }
 .fig2{
+    width: 200px;
     display: grid;
-    position: relative;
-    left:55%;
-
+    position: relative;   
+    bottom: 1000px;
+    left:240%;
 }
   
 
@@ -773,23 +774,24 @@ button:hover {
        justify-content: space-around;          
 }
 
-.correct{
-    background-color: #44d0ec;
+.correct{    
     height: 900px;
-   
+    margin:0;      
+}
+.margin{
+    height: 1px;
+    width: 500px;
 }
 
 /*RAFTING ABOUT US*/
 .box1about{
-    width: 1800px;    
+    width: 1790px;    
     display: flex;    
     background: var(--secondary-color);
     padding: 25px;         
     align-items: center;
     justify-content: space-around;      
 }
-
-
 .bodyabout{
     margin:0; 
     padding: 0;
